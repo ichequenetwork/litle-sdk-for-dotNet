@@ -3977,35 +3977,6 @@ namespace Litle.Sdk
         }
     }
 
-    public class accountUpdateFileRequestData
-    {
-        public string merchantId;
-
-        public accountUpdateFileRequestData()
-        {
-            merchantId = Settings.Default.merchantId;
-        }
-
-        public accountUpdateFileRequestData(Dictionary<string, string> config)
-        {
-            merchantId = config["merchantId"];
-        }
-
-        public DateTime postDay; //yyyy-MM-dd
-
-        public string Serialize()
-        {
-            var xml = "\r\n<merchantId>" + SecurityElement.Escape(merchantId) + "</merchantId>";
-
-            if (postDay != null)
-            {
-                xml += "\r\n<postDay>" + postDay.ToString("yyyy-MM-dd") + "</postDay>";
-            }
-
-            return xml;
-        }
-    }
-
     public class activate : transactionTypeWithReportGroup
     {
         public string orderId;

@@ -87,8 +87,6 @@
     <Compile Include="Certification\TestCert4Echeck.cs" />
     <Compile Include="Certification\TestCert5Token.cs" />
     <Compile Include="Certification\TestCert1Base.cs" />
-    <Compile Include="Functional\TestBatchStream.cs" />
-    <Compile Include="Functional\TestBatch.cs" />
     <Compile Include="Functional\TestAuthReversal.cs" />
     <Compile Include="Functional\TestCapture.cs" />
     <Compile Include="Functional\TestCaptureGivenAuth.cs" />
@@ -114,13 +112,10 @@
     <Compile Include="Unit\TestCancelSubscription.cs" />
     <Compile Include="Unit\TestUpdateSubscription.cs" />
     <Compile Include="Unit\TestXmlFieldsSerializer.cs" />
-    <Compile Include="Unit\TestBatchRequest.cs" />
     <Compile Include="Unit\TestCaptureGivenAuth.cs" />
     <Compile Include="Unit\TestForceCapture.cs" />
     <Compile Include="Unit\TestCapture.cs" />
     <Compile Include="Unit\TestAuthReversal.cs" />
-    <Compile Include="Unit\TestBatch.cs" />
-    <Compile Include="Unit\TestRFRRequest.cs" />
     <Compile Include="Unit\TestVoid.cs" />
     <Compile Include="Unit\TestEcheckRedeposit.cs" />
     <Compile Include="Unit\TestEcheckVerification.cs" />

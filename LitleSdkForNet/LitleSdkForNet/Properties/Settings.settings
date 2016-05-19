@@ -12,7 +12,7 @@
       <Value Profile="(Default)">500</Value>
     </Setting>
     <Setting Name="sftpUrl" Type="System.String" Scope="User">
-      <Value Profile="(Default)">prelive.litle.com</Value>
+      <Value Profile="(Default)">transact-prelive.litle.com</Value>
     </Setting>
     <Setting Name="knownHostsFile" Type="System.String" Scope="User">
       <Value Profile="(Default)">C:\Litle\dll\knownhosts</Value>
@@ -23,26 +23,11 @@
     <Setting Name="sftpPassword" Type="System.String" Scope="User">
       <Value Profile="(Default)">dotnet</Value>
     </Setting>
-    <Setting Name="onlineBatchUrl" Type="System.String" Scope="User">
-      <Value Profile="(Default)">prelive.litle.com</Value>
-    </Setting>
-    <Setting Name="onlineBatchPort" Type="System.String" Scope="User">
-      <Value Profile="(Default)">15000</Value>
-    </Setting>
-    <Setting Name="requestDirectory" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\Litle\</Value>
-    </Setting>
-    <Setting Name="responseDirectory" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\Litle\</Value>
-    </Setting>
     <Setting Name="logFile" Type="System.String" Scope="User">
       <Value Profile="(Default)">null</Value>
     </Setting>
     <Setting Name="neuterAccountNums" Type="System.String" Scope="User">
       <Value Profile="(Default)">true</Value>
-    </Setting>
-    <Setting Name="url" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://www.testlitle.com/sandbox/communicator/online</Value>
     </Setting>
     <Setting Name="proxyHost" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
@@ -51,13 +36,16 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="username" Type="System.String" Scope="User">
-      <Value Profile="(Default)">dotnet</Value>
+      <Value Profile="(Default)">u82917679317155852</Value>
     </Setting>
     <Setting Name="password" Type="System.String" Scope="User">
-      <Value Profile="(Default)">dotnet</Value>
+      <Value Profile="(Default)">iHXJyQPrUHVBrxm</Value>
     </Setting>
     <Setting Name="merchantId" Type="System.String" Scope="User">
-      <Value Profile="(Default)">011</Value>
+      <Value Profile="(Default)">01189311</Value>
+    </Setting>
+    <Setting Name="url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">transact-prelive.litle.com</Value>
     </Setting>
   </Settings>
 </SettingsFile>

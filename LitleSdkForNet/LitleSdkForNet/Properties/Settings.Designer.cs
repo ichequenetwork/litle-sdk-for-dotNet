@@ -61,7 +61,7 @@ namespace Litle.Sdk.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("prelive.litle.com")]
+        [global::System.Configuration.DefaultSettingValueAttribute("transact-prelive.litle.com")]
         public string sftpUrl {
             get {
                 return ((string)(this["sftpUrl"]));
@@ -109,54 +109,6 @@ namespace Litle.Sdk.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("prelive.litle.com")]
-        public string onlineBatchUrl {
-            get {
-                return ((string)(this["onlineBatchUrl"]));
-            }
-            set {
-                this["onlineBatchUrl"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("15000")]
-        public string onlineBatchPort {
-            get {
-                return ((string)(this["onlineBatchPort"]));
-            }
-            set {
-                this["onlineBatchPort"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Litle\\")]
-        public string requestDirectory {
-            get {
-                return ((string)(this["requestDirectory"]));
-            }
-            set {
-                this["requestDirectory"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Litle\\")]
-        public string responseDirectory {
-            get {
-                return ((string)(this["responseDirectory"]));
-            }
-            set {
-                this["responseDirectory"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("null")]
         public string logFile {
             get {
@@ -176,18 +128,6 @@ namespace Litle.Sdk.Properties {
             }
             set {
                 this["neuterAccountNums"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://www.testlitle.com/sandbox/communicator/online")]
-        public string url {
-            get {
-                return ((string)(this["url"]));
-            }
-            set {
-                this["url"] = value;
             }
         }
         
@@ -217,7 +157,7 @@ namespace Litle.Sdk.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("dotnet")]
+        [global::System.Configuration.DefaultSettingValueAttribute("u82917679317155852")]
         public string username {
             get {
                 return ((string)(this["username"]));
@@ -229,7 +169,7 @@ namespace Litle.Sdk.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("dotnet")]
+        [global::System.Configuration.DefaultSettingValueAttribute("iHXJyQPrUHVBrxm")]
         public string password {
             get {
                 return ((string)(this["password"]));
@@ -241,13 +181,25 @@ namespace Litle.Sdk.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("011")]
+        [global::System.Configuration.DefaultSettingValueAttribute("01189311")]
         public string merchantId {
             get {
                 return ((string)(this["merchantId"]));
             }
             set {
                 this["merchantId"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("transact-prelive.litle.com")]
+        public string url {
+            get {
+                return ((string)(this["url"]));
+            }
+            set {
+                this["url"] = value;
             }
         }
     }
